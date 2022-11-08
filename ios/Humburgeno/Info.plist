@@ -2,6 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -68,6 +69,43 @@
   <string>SimpleLineIcons.ttf</string>
   <string>Octicons.ttf</string>
   <string>Zocial.ttf</string>
+
+<key>CFBundleURLTypes</key>
+<array>
+  <dict>
+  <key>CFBundleURLSchemes</key>
+  <array>
+    <string>645503120448958</string>
+  </array>
+  </dict>
+</array>
+<key>FacebookAppID</key>
+<string>645503120448958</string>
+<key>FacebookClientToken</key>
+<string>36c9fe73bf136a7860f193ea2dc63bcf</string>
+<key>FacebookDisplayName</key>
+<string>APP-NAME</string>
+</array>
+</dict>
+
+<key>CFBundleURLTypes</key>
+<array>
+  <dict>
+  <key>CFBundleURLSchemes</key>
+  <array>
+    <string>645503120448958</string>
+  </array>
+  </dict>
+</array>
+<key>FacebookAppID</key>
+<string>645503120448958</string>
+<key>FacebookClientToken</key>
+<string>36c9fe73bf136a7860f193ea2dc63bcf</string>
+<key>FacebookDisplayName</key>
+<string>APP-NAME</string>
+</array>
+</dict>
+
 </array>
 </dict>
 </plist>
