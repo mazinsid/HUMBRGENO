@@ -13,9 +13,10 @@ import Food from './Food';
 import Cart from './Cart';
 import Address from './Address';
 import Profile from './Profile';
-import {COLORS} from '../database/items';
+import {COLORS} from '../../database/items';
 import Icon from 'react-native-vector-icons/Ionicons';
 
+import FontAwesome from 'react-native-vector-icons/FontAwesome5';
 console.disableYellowBox = true;
 
 var {width} = Dimensions.get('window');
@@ -65,8 +66,8 @@ export default class index extends Component {
 
           <TouchableOpacity onPress={() => this.setState({module: 3})}>
             <View style={styles.itemTab}>
-              <Icon
-                name="md-map"
+              <FontAwesome
+                name="shipping-fast"
                 size={30}
                 color={this.state.module == 3 ? COLORS.accent : 'gray'}
               />
@@ -77,7 +78,7 @@ export default class index extends Component {
           <TouchableOpacity onPress={() => this.setState({module: 4})}>
             <View style={styles.itemTab}>
               <Icon
-                name="md-restaurant"
+                name="md-person-outline"
                 size={30}
                 color={this.state.module == 4 ? COLORS.accent : 'gray'}
               />

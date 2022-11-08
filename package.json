@@ -17,7 +17,7 @@
     "color-convert": "^2.0.1",
     "react": "18.1.0",
     "react-native": "0.70.1",
-    "react-native-fbsdk-next": "^11.0.1",
+ 
     "react-native-fetch-api": "^3.0.0",
     "react-native-otp-autoverification": "^0.1.7",
     "react-native-safe-area-context": "^4.4.1",

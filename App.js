@@ -1,12 +1,13 @@
 import React from 'react';
 import {StatusBar} from 'react-native';
-import NavigationList from './src/components/NavigationList';
+import Navigation from './src/navigation';
 
+import Login from './src/screen/SingIn';
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <NavigationList />
+      <Navigation />
     </>
   );
 };

@@ -13,6 +13,7 @@ const NavigationList = () => {
         screenOptions={{
           headerShown: false,
         }}>
+          
         <Stack.Screen name="Menu" component={Menu} />
         <Stack.Screen name="Categories" component={Categories} />
         <Stack.Screen name="Details" component={DetailsAPi} />
